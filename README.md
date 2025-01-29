@@ -1,6 +1,6 @@
 # Posix Message Queue
 
-We implement a message queue server and client (producer or consumer) using the C `POSIX` api:
+We implement a message queue server and client (producer or consumer) using the `POSIX` api:
 - Endpoints between client and server are TCP sockets for reliability and ordered delivery guarantees.  
 - The `poll` function was used to monitor multiple file descriptors.
 
